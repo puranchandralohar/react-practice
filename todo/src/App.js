@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import { Count } from './Components/Count.js';
+import { Counter } from './Components/Counter';
 
 export default class App extends Component {
+// R
   render() {
     return (
       <>
-      <Count/>
+      {/* <Count/> */}
+      <Counter />
+
       </>
     )
   }
