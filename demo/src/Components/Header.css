@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+}
+
+header{
+    justify-content: space-around;
+    align-items: center;
+    color:#eee;
+    background-color: teal;
+}
+
+nav{
+    gap:1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color:#eee;
+}
