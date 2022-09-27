@@ -5,8 +5,16 @@
 header{
     justify-content: space-around;
     align-items: center;
+}
+
+.head{
     color:#eee;
     background-color: teal;
+}
+
+.headDark{
+    color:#eee;
+    background-color: #333;
 }
 
 nav{
