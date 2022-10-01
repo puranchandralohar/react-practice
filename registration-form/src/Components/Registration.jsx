@@ -8,6 +8,8 @@ export function Registration() {
     repeat_password:""
   })
 
+  const [submitted, setSubmitted] = useState(false);
+
   const handleChange = (e)=>{
     const name = e.target.name;
     const value = e.target.value;
@@ -17,12 +19,17 @@ export function Registration() {
     })
   }
 
+  const isSubmitted = (e)=>{
+    e.preventDefault();
+    setSubmitted(true)
+  }
 
   return (
     <>
       <div className="container">
-        <form>
+        <form onSubmit={isSubmitted}>
           <div className="wrapper">
+          {submitted ? <div className="success_msg">Success! Thank You for registering.</div>: null}
             <h1>Register</h1>
             <p>Please fill in this form to create an account.</p>
             <hr />

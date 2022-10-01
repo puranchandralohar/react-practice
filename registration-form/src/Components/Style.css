@@ -20,6 +20,13 @@ body{
     margin:20px;
 }
 
+.success_msg{
+  padding: 15px;
+  background: #31d374;
+  color:#eee;
+  font-size: 1rem;
+}
+
 h1{
     color:#06a58a;
     font-weight: 600;
