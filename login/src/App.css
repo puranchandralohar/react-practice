@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wrapper{
+  box-shadow: 0 0 4px #333;
+  padding: 12px;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  padding: 20px;
+  
+}
+
+form input{
+  padding: 8px 12px;
+}
+
+.wrapper button{
+  padding: 8px 12px;
+  background:green;
+  color:white;
+  border:none;
+  cursor: pointer;
+}
+
+fieldset div{
+  margin: 5px;
+}
