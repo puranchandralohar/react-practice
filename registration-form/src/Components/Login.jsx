@@ -8,6 +8,12 @@ const [data,setData] = useState({
 })
 const [submit,setSubmit] = useState(false);
 
+
+const database = {
+    username:"Puran",
+    password:"12345"
+}
+
 const handleData = (e)=>{
    const name = e.target.name;
    const value = e.target.value;
@@ -19,7 +25,19 @@ const handleData = (e)=>{
 
 const isSubmitted = (e)=>{
     e.preventDefault()
-    setSubmit(true)
+
+    if(database.username === data.username){
+        if(database.password === data.password){
+            alert("Login Successfully")
+            setSubmit(true)
+        }
+        else{
+            alert("Username or Password is incorrect")
+        }
+    }
+    else{
+        alert("Username or Password is incorrect")
+    } 
 }
 
 
