@@ -1,9 +1,14 @@
 import React from 'react'
-import { Registration } from './Components/Registration';
+// import { Registration } from './Components/Registration';
+import { Login } from './Components/Login'
 
 function App() {
   return (
-    <Registration />
+    <>
+      {/* <Registration /> */}
+      <Login />
+    </>
+
   );
 }
 
