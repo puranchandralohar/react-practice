@@ -3,9 +3,10 @@ import './Header.css'
 import { Toggle } from './Toggle'
 
 export function Header(props) {
+
   return (
     <>
-        <header className='head flex'>
+        <header className={`light flex`}>
             <div className="logo flex">
                 <h2>{props.title}</h2>
             </div>

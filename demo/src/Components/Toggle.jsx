@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 import { useState } from 'react'
    
 
@@ -10,7 +11,7 @@ export function Toggle(){
 
     function toggle(){
         setVal((val ==='Light')?'Dark':'Light');
-        setColor((color === 'Light')? document.header.classList.add('headDark'):document.header.classList.add('head'));
+        setColor((color === 'Light')? document.body.header.classList.add('dark'):document.body.header.classList.add('light'));
     }
 
     return(

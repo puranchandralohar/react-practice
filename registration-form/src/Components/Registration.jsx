@@ -22,6 +22,12 @@ export function Registration() {
   const isSubmitted = (e)=>{
     e.preventDefault();
     setSubmitted(true)
+    
+  }
+
+  const storeData =()=>{
+    localStorage.setItem('username',formdata.username)
+    localStorage.setItem('password',formdata.password)
   }
 
   return (
@@ -41,6 +47,7 @@ export function Registration() {
               placeholder="Enter Username"
               name="username"
               id="username"
+              autoComplete="off"
               required
             />
 
@@ -69,7 +76,7 @@ export function Registration() {
               By creating an account you agree to our{" "}
               <a href="?">Terms & Privacy</a>.
             </p>
-            <button type="submit" class="registerbtn">
+            <button type="submit" class="registerbtn" onClick={storeData}>
               Register
             </button>
 

@@ -10,8 +10,8 @@ const [submit,setSubmit] = useState(false);
 
 
 const database = {
-    username:"Puran",
-    password:"12345"
+   username :localStorage.getItem('username'),
+   password :localStorage.getItem('password')
 }
 
 const handleData = (e)=>{
@@ -55,7 +55,8 @@ const isSubmitted = (e)=>{
           name="username" 
           value={data.username} 
           onChange={handleData} 
-          placeholder="Enter Username" />
+          placeholder="Enter Username"
+          autoComplete="off" />
         </label>
 
         <label htmlFor="password">

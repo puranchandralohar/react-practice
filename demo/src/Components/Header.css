@@ -7,12 +7,12 @@ header{
     align-items: center;
 }
 
-.head{
+.light{
     color:#eee;
     background-color: teal;
 }
 
-.headDark{
+.dark{
     color:#eee;
     background-color: #333;
 }
