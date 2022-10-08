@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Login.css";
 
 export function Login() {
@@ -71,6 +72,9 @@ const isSubmitted = (e)=>{
         <button className="submit_btn" type="submit">
           Login
         </button>
+        <p>
+            Don't have an account? Register Here <Link to = "/">Register</Link>.
+        </p>
       </form>
     </div>
   );

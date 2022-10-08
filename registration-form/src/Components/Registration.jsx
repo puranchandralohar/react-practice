@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Style.css";
 
 export function Registration() {
@@ -81,7 +82,7 @@ export function Registration() {
             </button>
 
             <p>
-              Already have an account? <a href="?">Sign in</a>.
+              Already have an account? <Link to = "/login">Sign in</Link>.
             </p>
           
           </div>
