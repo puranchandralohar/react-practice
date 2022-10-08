@@ -49,14 +49,14 @@ const isSubmitted = (e)=>{
   return (
     <div className="login_container">
       <form className="login_form" onSubmit={isSubmitted}>
-        <h1>Login</h1>
+        <h1>Welcome</h1>
         <label htmlFor="username">
           <input 
           type="text" 
           name="username" 
           value={data.username} 
           onChange={handleData} 
-          placeholder="Enter Username"
+          placeholder="Username"
           autoComplete="off" />
         </label>
 
@@ -66,7 +66,7 @@ const isSubmitted = (e)=>{
           name="password" 
           value={data.password} 
           onChange={handleData}  
-          placeholder="Enter Password" />
+          placeholder="Password" />
         </label>
 
         <button className="submit_btn" type="submit">

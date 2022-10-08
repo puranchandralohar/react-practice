@@ -39,11 +39,11 @@
 }
 
 .login_form input{
-    border-bottom: 1px solid gray;
+    border: 1px solid gray;
 }
 
 .login_form input:focus{
-   border-bottom: 1px solid teal;
+   border: 1px solid teal;
 }
 
 .submit_btn{
@@ -56,3 +56,5 @@
 .submit_btn:hover{
     opacity: 1;
 }
+
+/* For Background Circle */
