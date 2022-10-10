@@ -8,6 +8,7 @@ export function Registration() {
     password:"",
     repeat_password:""
   })
+  const [data, setData] = useState([])
 
   const [submitted, setSubmitted] = useState(false);
 
@@ -18,12 +19,22 @@ export function Registration() {
     setFormdata((prev)=>{
       return {...prev,[name]:value}
     })
+   
   }
 
   const isSubmitted = (e)=>{
     e.preventDefault();
     setSubmitted(true)
-    
+    // data.push(formdata)
+    setData([...data,data.push(formdata)])
+    setFormdata({
+      username:"",
+      password:"",
+      repeat_password:""
+    })
+    // setData(...data,data)
+
+    console.log(data);
   }
 
   const storeData =()=>{
