@@ -26,7 +26,7 @@ export function Registration() {
     e.preventDefault();
     setSubmitted(true)
     // data.push(formdata)
-    setData([...data,data.push(formdata)])
+    setData(data,data.push(formdata))
     setFormdata({
       username:"",
       password:"",
@@ -38,6 +38,7 @@ export function Registration() {
   }
 
   const storeData =()=>{
+    localStorage.setItem('data',data);
     localStorage.setItem('username',formdata.username)
     localStorage.setItem('password',formdata.password)
   }
