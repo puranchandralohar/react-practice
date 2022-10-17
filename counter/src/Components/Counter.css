@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.counter_app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 300px;
+    height:300px;
+    box-shadow: 0 0 0.2em #333;
+}
+
+.count_display{
+    font-size: 4em;
+}
+
+.count_btn{
+    padding: 8px 12px;
+}

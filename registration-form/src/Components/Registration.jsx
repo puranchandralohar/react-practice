@@ -34,11 +34,12 @@ export function Registration() {
     })
     // setData(...data,data)
 
-    console.log(data);
   }
 
   const storeData =()=>{
-    localStorage.setItem('data',data);
+    // console.log(data);
+    // const userData = JSON.stringify(data);
+    // localStorage.setItem("users",userData);
     localStorage.setItem('username',formdata.username)
     localStorage.setItem('password',formdata.password)
   }
