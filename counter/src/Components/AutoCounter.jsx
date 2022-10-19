@@ -53,9 +53,11 @@ export function AutoCounter() {
         <div className="counter_app">
             <div className="app_title"><h1>Counter</h1></div>
             <div className="count_display">{count}</div>
-            <button className="count_btn" onClick={handlePlay}>Play</button>
-            <button className="count_btn" onClick={handlePause}>Pause</button>
-            <button className="count_btn" onClick={handleReset}>Reset</button>
+            <div className="btns">
+            <button className="count_btn" onClick={handlePlay}><i class="fa-solid fa-play"></i></button>
+            <button className="count_btn" onClick={handlePause}><i class="fa-solid fa-pause"></i></button>
+            <button className="count_btn" onClick={handleReset}><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
         </div>
     </>
   )
