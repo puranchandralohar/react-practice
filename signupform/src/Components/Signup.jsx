@@ -8,16 +8,21 @@ export function Signup() {
   const [mobile, setMobile] = useState();
   const [psw, setPsw] = useState();
   const [confirmPsw, setConfirmPsw] = useState();
-  const [isSignup, setIsSignup] = useState(false);
+  const [success, setSuccess] = useState(false);
 
 
-
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        return(
+            !success && setSuccess(true)
+        )
+    }
 
 
   return (
     <>
-    {isSignup? <div>Hello {name}</div>:""}
-      <form className="form_wrapper" onSubmit={userSignup}>
+    {success? <div>Hello {name}</div>:""}
+      <form className="form_wrapper" onSubmit={handleSubmit}>
         <TextField
           label="Name"
           variant="outlined"

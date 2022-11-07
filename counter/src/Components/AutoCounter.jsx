@@ -23,7 +23,7 @@ export function AutoCounter() {
         if(play){
             const interval = setInterval(() => {
                 setCount((counter)=>counter+1);
-              }, 100);
+              }, 1000);
           
               return () => {
                 clearInterval(interval);
