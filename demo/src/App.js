@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
-import { Header } from './Components/Header';
+// import { Header } from './Components/Header';
 // import { Count } from './Components/Count';
 // import { Counter } from './Components/Counter';
-// import Crud from './Components/Crud';
+import Crud from './Components/Notes/Crud';
 
 
 export default class App extends Component {
-// Ra
   render() {
     return (
       <>
-      <Header title="Fruits Basket" />
+      {/* <Header title="Fruits Basket" /> */}
       {/* <Count/> */}
       {/* <Counter /> */}
-      {/* <Crud /> */}
+      <Crud />
       
 
       </>

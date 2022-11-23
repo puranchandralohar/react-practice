@@ -1,5 +1,10 @@
+body{
+    background-color: rgb(66, 97, 66);
+    color: #fff;
+}
+
 .container{
-    margin-top: 50px;
+    padding: 1.2em;
     display: flex;
     flex-direction: column;
     align-items: center;
