@@ -1,3 +1,10 @@
 import React from 'react'
+import { Counter } from './Components/Counter/Counter'
 
-export const App = () => <h1>Hello</h1>
+export const App = () => {
+    return(
+        <>
+            <Counter />
+        </>
+    )
+}
