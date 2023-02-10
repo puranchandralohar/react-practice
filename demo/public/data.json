@@ -1,0 +1,85 @@
+{
+    "pager": { "page": 1, "pageCount": 22, "pageSize": 10, "total": 215 },
+    "results": [
+      {
+        "Continent": "Asia",
+        "ContinentCode": "AS",
+        "Country": "Afghanistan",
+        "CountryCode": "AFG",
+        "Population": 38041754,
+        "PopulationGrowth": 2.31
+      },
+      {
+        "Continent": "Europe",
+        "ContinentCode": "EU",
+        "Country": "Albania",
+        "CountryCode": "ALB",
+        "Population": 2854191,
+        "PopulationGrowth": -0.43
+      },
+      {
+        "Continent": "Africa",
+        "ContinentCode": "AF",
+        "Country": "Algeria",
+        "CountryCode": "DZA",
+        "Population": 43053054,
+        "PopulationGrowth": 1.93
+      },
+      {
+        "Continent": "Oceania",
+        "ContinentCode": "OC",
+        "Country": "American Samoa",
+        "CountryCode": "ASM",
+        "Population": 55312,
+        "PopulationGrowth": -0.28
+      },
+      {
+        "Continent": "Europe",
+        "ContinentCode": "EU",
+        "Country": "Andorra",
+        "CountryCode": "AND",
+        "Population": 77142,
+        "PopulationGrowth": 0.18
+      },
+      {
+        "Continent": "Africa",
+        "ContinentCode": "AF",
+        "Country": "Angola",
+        "CountryCode": "AGO",
+        "Population": 31825295,
+        "PopulationGrowth": 3.24
+      },
+      {
+        "Continent": "North America",
+        "ContinentCode": "NA",
+        "Country": "Antigua and Barbuda",
+        "CountryCode": "ATG",
+        "Population": 97118,
+        "PopulationGrowth": 0.86
+      },
+      {
+        "Continent": "South America",
+        "ContinentCode": "SA",
+        "Country": "Argentina",
+        "CountryCode": "ARG",
+        "Population": 44938712,
+        "PopulationGrowth": 0.99
+      },
+      {
+        "Continent": "Europe",
+        "ContinentCode": "EU",
+        "Country": "Armenia",
+        "CountryCode": "ARM",
+        "Population": 2957731,
+        "PopulationGrowth": 0.2
+      },
+      {
+        "Continent": "North America",
+        "ContinentCode": "NA",
+        "Country": "Aruba",
+        "CountryCode": "ABW",
+        "Population": 106314,
+        "PopulationGrowth": 0.44
+      }
+    ]
+  }
